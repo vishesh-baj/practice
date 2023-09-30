@@ -1,0 +1,73 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: whitesmoke;
+}
+
+input {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  outline: none;
+  border: none;
+}
+
+button {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  outline: none;
+  border: none;
+  background-color: teal;
+  cursor: pointer;
+}
+.welcome-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0px 1rem 0px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.play-area {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.area-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background: red;
+  width: 50%;
+}
+
+.area-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background: blue;
+  width: 50%;
+}
+
+.choices-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.choice-div {
+  padding: 1rem;
+  background-color: pink;
+  cursor: pointer;
+}
