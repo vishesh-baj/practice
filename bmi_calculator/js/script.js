@@ -22,16 +22,19 @@ heightInput.addEventListener("input",() => {
 
 bmiButton.addEventListener("click", () => {
     if(!isNaN(weight) && !isNaN(height) && height > 0){
-        const result = weight / (height * height);
+        const heightSquaqred = height*height;
+        const result = weight / heightSquaqred;
         console.log("BMI RESULT: ", result);
         if(result > 18.5 && result < 24.9){
             bmiComment.textContent = "BMI in healthy range"
         } else if (result > 25.0 && result <29.9){
             bmiComment.textContent = "BMI in overweight range"
-        } else {
+        } else if( result > 29.9) {
             bmiComment.textContent = "BMI in obese range"
         }
 
         bmiResult.textContent = result.toFixed(2);
     }
 });
+
+ 
