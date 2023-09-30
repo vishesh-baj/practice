@@ -71,3 +71,7 @@ button {
   background-color: pink;
   cursor: pointer;
 }
+
+.hidden {
+  display: none;
+}
