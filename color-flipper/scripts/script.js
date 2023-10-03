@@ -1,7 +1,6 @@
 console.log("COLOR FLIPPER GAME");
 
 console.log("COLOR FLIPPER");
-
 const body = document.body;
 const colorFlipperButton = document.querySelector(".color-flipper-button");
 const randomColor = [

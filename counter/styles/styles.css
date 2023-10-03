@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-size: larger;
+  width: 5rem;
+  background-color: teal;
+  color: white;
+  border-radius: 1rem;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+.counter-heading-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.counter-app-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons-wrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.counter-function-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.counter {
+  font-size: x-large;
+}
