@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO APP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="./script/script.js" defer></script>
+  </head>
+  <body class="bg-gray-400">
+    <div
+      class="flex flex-col w-full justify-center items-center py-4 px-8 mx-auto"
+    >
+      <h1 class="text-4xl uppercase font-semibold text-teal-600">Todo App</h1>
+      <form id="inputForm" class="flex gap-4 mt-4">
+        <div class="flex gap-4 flex-col">
+          <input
+            class="py-2 px-4 rounded-xl outline-none"
+            placeholder="Add Todo"
+            type="text"
+            name=""
+            id="todoInput"
+          />
+          <input
+            class="py-2 px-4 rounded-xl outline-none"
+            placeholder="Add Todo Description"
+            type="text"
+            name=""
+            id="todoInputDescription"
+          />
+        </div>
+        <button
+          id="addTodoButton"
+          type="submit"
+          class="px-4 py-2 bg-teal-400 rounded-xl outline-none"
+        >
+          Add Todo
+        </button>
+      </form>
+    </div>
+    <div
+      id="todoCardContainer"
+      class="grid grid-cols-4 gap-4 py-4 px-8 container mx-auto"
+    >
+      <!-- todo card -->
+      <!-- <div
+        class="w-full col-span-1 h-96 px-4 py-8 rounded-xl bg-gray-500 shadow-xl"
+      >
+        <div class="flex flex-col gap-4 justify-between">
+          <h2 class="text-2xl font-semibold">Todo Title</h2>
+          <hr />
+          <span class="text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, cum
+            repudiandae quae ducimus beatae officia inventore magni distinctio,
+            velit sed hic facere maiores ullam non.
+          </span>
+          <div class="flex gap-4">
+            <button class="px-4 py-2 bg-teal-400 rounded-xl outline-none">
+              Complete
+            </button>
+            <button class="px-4 py-2 bg-red-400 rounded-xl outline-none">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </body>
+</html>
